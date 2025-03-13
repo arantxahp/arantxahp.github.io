@@ -1,0 +1,191 @@
+<!--
+        Facultad de Arquitectura
+        Colegio de Diseño Gráfico
+        Diseño de Interfaces Gráfico de Usuario
+        Herrera Preza Arantxa
+-->
+<html>
+<head>
+    <title> Enlace en html</title>
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+            
+        }   
+        header, nav, main, footer {
+            width:1280px;
+            padding:30px;
+            background-color:#1b4965;
+            color:#f0f3bd;
+            margin-left:auto;
+                margin-right:auto;
+        }
+        nav{
+           background-color:#62b6cb;   
+        }
+        main{
+            background-color:#bee9e8; 
+            height: auto;
+        }
+        section{
+           width:900px;
+            height:400px;
+           background-color:#90D0DA;
+               margin-bottom: 30px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header, footer{
+            text-align: center;
+        }
+        h1{
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        h2{
+            color:#274c77
+        }
+        h6{
+            font-size: 10px;
+        }
+        p{
+            color:white
+        }
+        nav ul{
+            text-align: center;
+            display: flex;
+        }
+        nav ul li{
+            width: 80px;
+            background-color: #ffd500;
+            list-style-type: none;
+            display: inline-block;
+                padding:10px;
+            text-align: center;
+           margin-left: auto;
+            margin-right: auto;
+            list-style-type: none;
+            
+        }
+        p{
+            margin-top: 20px;
+        }
+        section a:visited, section a:link{
+            color:#219ebc;
+        
+        }
+        section a:active{
+            color: yellow;
+           } 
+            section a:hover{
+            color: #ff6b35;
+            font-weight: bold;
+        }
+        nav a:link, nav a:visited{
+            color: #1b4965;
+                text-decoration:none;
+        }
+        nav ul li:hover:not(.home){
+            background-color:#F18701;
+        }
+
+.home {
+    background-color: transparent;
+    width: auto;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0;
+} 
+.home a img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+}
+.home a:hover img {
+    background-color: transparent;
+    transform: scale(1.1);
+    content: url('../Imagenes/Iconos/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(43).png')
+
+}
+        main nav{
+            width: 600px;
+            
+        }
+        footer{
+    text-align: center;
+    height: auto;
+    font-size: 18px;
+}
+.iconos{
+                width: 50px;
+                height: auto;
+                padding: 5px;
+                margin-top: auto;
+                display: inline-block; 
+            }
+                          </style>
+    </head>
+<body>
+    <header> 
+    <h1>ENLACES</h1>
+    </header>
+    <nav>
+    <ul>
+         <li class="home"><a href="../html/index.html"> <img src="../Imagenes/Iconos/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(42).png" alt="home"></a></li>
+                <li><a href="../html/MiPrimeraPagina.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/Tablas.html">Tablas</a></li>
+                <li><a href="../html/Imagen.html">Imagenes</a></li>
+                <li><a href="../html/Audio.html">Audio</a></li>
+                <li><a href="../html/Video.html">Video</a></li>
+                <li><a href="../html/Formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+    <main> 
+    <section>
+        <h2 id="Externo">Enlaces externos</h2>
+        <p>Lorem ipsum dolor sit amet, <a href="https://www.google.com/"> Google</a> consectetur adipiscing elit. Maecenas ut scelerisque lorem, ac commodo dolor. Mauris magna erat, molestie sed justo at, imperdiet lobortis ipsum. Nulla euismod id urna a vehicula. Donec facilisis ante tortor, et viverra justo mattis eget. Nullam lacus quam, aliquet quis leo eu, placerat aliquet neque. Fusce dictum non libero nec elementum. <a href="https://www.buap.mx/"> BUAP</a> Sed sollicitudin viverra est, id elementum tortor. Maecenas id scelerisque ante. Cras elementum felis sit amet neque dignissim, sit amet placerat mauris semper. Quisque mattis leo in ligula convallis molestie. Nunc sit amet neque et nisi maximus semper. Fusce efficitur lorem et vulputate varius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit quam orci. Proin in feugiat nisl, eget pretium elit. Nulla dapibus, sem accumsan volutpat faucibus, nunc sapien facilisis enim, sed convallis tortor dolor ac eros. Aliquam a nisi iaculis, faucibus ligula id, porta tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc aliquam eros id gravida semper. Pellentesque quis sapien quis felis dapibus volutpat vel nec augue. Duis pellentesque facilisis justo in lacinia. Donec vel.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at condimentum lobortis. Proin sem nisi, mollis ut pretium vitae, iaculis accumsan est. Donec varius sapien mi, sed pulvinar diam lacinia sit amet. Fusce varius felis dignissim lacus porta, hendrerit condimentum ipsum molestie. Vivamus pretium velit scelerisque odio pellentesque sollicitudin. Nullam id varius est. Cras ultricies tellus ac dui malesuada tempus. Curabitur in dictum est. Ut quis pellentesque enim. Etiam gravida ornare imperdiet. Maecenas hendrerit nec nisi sit amet varius. Ut in eleifend odio.</p>
+        </section>
+        <section>
+        <h2 id="Interno">Enlace interno</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut scelerisque lorem, ac commodo dolor. Mauris magna erat, <a href="Listas.html">Practica Listas</a>molestie sed justo at, imperdiet lobortis ipsum. Nulla euismod id urna a vehicula. Donec facilisis ante tortor, et viverra justo mattis eget. Nullam lacus quam, aliquet quis leo eu, placerat aliquet neque. Fusce dictum non libero nec elementum. Sed sollicitudin viverra est, id elementum tortor. Maecenas id scelerisque ante. Cras elementum felis sit amet neque <a href="MiPrimeraPagina.html">Practica Mi Primera Pagina</a> dignissim, sit amet placerat mauris semper. Quisque mattis leo in ligula convallis molestie. Nunc sit amet neque et nisi maximus semper. Fusce efficitur lorem et vulputate varius.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit quam orci. Proin in feugiat nisl, eget pretium elit. Nulla dapibus, sem accumsan volutpat faucibus, nunc sapien facilisis enim, sed convallis tortor dolor ac eros. Aliquam a nisi iaculis, faucibus ligula id, porta tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc aliquam eros id gravida semper. Pellentesque quis sapien quis felis dapibus volutpat vel nec augue. Duis pellentesque facilisis justo in lacinia. Donec vel.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at condimentum lobortis. Proin sem nisi, mollis ut pretium vitae, iaculis accumsan est. Donec varius sapien mi, sed pulvinar diam lacinia sit amet. Fusce varius felis dignissim lacus porta, hendrerit condimentum ipsum molestie. Vivamus pretium velit scelerisque odio pellentesque sollicitudin. Nullam id varius est. Cras ultricies tellus ac dui malesuada tempus. Curabitur in dictum est. Ut quis pellentesque enim. Etiam gravida ornare imperdiet. Maecenas hendrerit nec nisi sit amet varius. Ut in eleifend odio.</p>
+        </section>
+    <section>
+        <h2 id="Email">Enlace a email</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut scelerisque lorem, ac commodo dolor. Mauris magna erat, molestie sed justo at, imperdiet lobortis ipsum. Nulla euismod id urna a vehicula. Donec facilisis ante tortor, et viverra justo mattis eget. Nullam lacus quam, aliquet quis leo eu, placerat <a href="mailto:arantxa.preza@gmail.com"> Arantxa Herrera Preza</a> aliquet neque. Fusce dictum non libero nec elementum. Sed sollicitudin viverra est, id elementum tortor. Maecenas id scelerisque ante. Cras elementum felis sit amet neque dignissim, sit amet placerat mauris semper. Quisque mattis leo in ligula convallis molestie. Nunc sit amet neque et nisi maximus semper. Fusce efficitur lorem et vulputate varius.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit quam orci. Proin in feugiat nisl, eget pretium elit. Nulla dapibus, sem accumsan volutpat faucibus, nunc sapien facilisis enim, sed convallis tortor dolor ac eros. Aliquam a nisi iaculis, faucibus ligula id, porta tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc aliquam eros id gravida semper. Pellentesque quis sapien quis felis dapibus volutpat vel nec augue. Duis pellentesque facilisis justo in lacinia. Donec vel.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at condimentum lobortis. Proin sem nisi, mollis ut pretium vitae, iaculis accumsan est. Donec varius sapien mi, sed pulvinar diam lacinia sit amet. Fusce varius felis dignissim lacus porta, hendrerit condimentum ipsum molestie. Vivamus pretium velit scelerisque odio pellentesque sollicitudin. Nullam id varius est. Cras ultricies tellus ac dui malesuada tempus. Curabitur in dictum est. Ut quis pellentesque enim. Etiam gravida ornare imperdiet. Maecenas hendrerit nec nisi sit amet varius. Ut in eleifend odio.</p>
+        </section>
+        <section> 
+        <h2 id="Descarga">Enlace a descarga de archivo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut scelerisque lorem, ac commodo dolor. Mauris magna erat, molestie sed justo at, imperdiet lobortis ipsum. Nulla euismod id urna a vehicula. Donec facilisis ante tortor, et viverra justo mattis eget. Nullam lacus quam, aliquet quis leo eu, placerat aliquet neque. Fusce dictum non libero nec elementum. Sed sollicitudin viverra est, id elementum tortor. Maecenas id scelerisque ante. Cras elementum <a href="PDF/Herrera_Preza_Arantxa-Listas.pdf" download>Codigo de Listas</a>felis sit amet neque dignissim, sit amet placerat mauris semper. Quisque mattis leo in ligula convallis molestie. Nunc sit amet neque et nisi maximus semper. Fusce efficitur lorem et vulputate varius.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit quam orci. Proin in feugiat nisl, eget pretium elit. Nulla dapibus, sem accumsan volutpat faucibus, nunc sapien facilisis enim, sed convallis tortor dolor ac eros. Aliquam a nisi iaculis, faucibus ligula id, porta tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc aliquam eros id gravida semper. Pellentesque quis sapien quis felis dapibus volutpat vel nec augue. Duis pellentesque facilisis justo in lacinia. Donec vel.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at condimentum lobortis. Proin sem nisi, mollis ut pretium vitae, iaculis accumsan est. Donec varius sapien mi, sed pulvinar diam lacinia sit amet. Fusce varius felis dignissim lacus porta, hendrerit condimentum ipsum molestie. Vivamus pretium velit scelerisque odio pellentesque sollicitudin. Nullam id varius est. Cras ultricies tellus ac dui malesuada tempus. Curabitur in dictum est. Ut quis pellentesque enim. Etiam gravida ornare imperdiet. Maecenas hendrerit nec nisi sit amet varius. Ut in eleifend odio.</p>
+        </section>
+        <nav>
+        <ul>
+            <li> <a href="#Externo">Externo</a></li>
+            <li> <a href="#Interno">Interno</a></li>
+            <li> <a href="#Email">Email</a></li>
+            <li> <a href="#Descarga">Descarga</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/arantxacontx.png/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/ig.png"></a>
+           <a href="https://mx.pinterest.com/arantxaacontx/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/pin.png"></a>
+           <a href="https://www.tiktok.com/@arantxaacontx?_t=ZM-8ue1k8CD0SN&_r=1" target="_blank"><img class="iconos" src="../Imagenes/Iconos/tiktk.png"></a>
+           <br><br>
+            <h6>Elaborado por Arantxa Herrera</h6>
+    </footer>
+    
+    </body>
+</html>

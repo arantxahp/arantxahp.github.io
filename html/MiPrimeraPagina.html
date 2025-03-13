@@ -1,0 +1,201 @@
+<!--
+        Facultad de Arquitectura
+        Colegio de Diseño Gráfico
+        Diseño de Interfaces Gráfico de Usuario
+        Herrera Preza Arantxa
+-->
+<html>
+    <head>
+        <title>Mi primera página web</title>
+        <style type="text/css">
+            *{
+                padding:0;
+                margin:0;
+            }
+            header {
+               width:1200px;
+               height:100px;
+               background-color:cornflowerblue;
+               color:white;
+               padding:30px;
+            }
+            nav{
+               width:1200px;
+               height:50px;
+               background-color:darkblue;
+               padding:30px;
+            }
+            main{
+               width:1200px;
+               height:2070px;
+               background-color:lightsteelblue;
+               padding:30px;
+            }
+            footer{
+                width:1200px;
+               height:40px;
+               background-color:cornflowerblue;
+               padding:30px; 
+            }
+            header, nav, main, footer {
+                margin-left:auto;
+                margin-right:auto;
+            }
+            section{
+                 width:900px;
+               height:250px;
+               background-color:aliceblue;
+                margin-top:30px;
+                margin-bottom:30px;
+               padding:30px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            header h1, footer h6{
+                text-align:center;
+                color:whitesmoke;
+            }
+            footer h6{
+                color:aliceblue;
+                font-size:14px;
+            }
+            h1,h2,h3,h4,h5,h6{
+                margin-bottom:20px;
+                color:darkslateblue;
+            }
+            p{
+                color:cornflowerblue;
+            }
+            ul {
+                text-align:center;
+                
+            }
+            
+            ul li {
+            list-style-type:none;
+                width:80px;
+                height:30px;
+               background-color:ghostwhite;
+                margin-bottom:10px;
+                display:inline-block;
+                padding:10px;
+                margin-left:20px;
+                margin-right:20px;
+            }
+             footer{
+                text-align: center;
+                height: auto;
+                font-size: 18px;
+                }
+            .iconos{
+                width: 50px;
+                height: auto;
+                padding: 5px;
+                margin-top: auto;
+                display: inline-block; 
+            }
+                nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+            display: flex;
+        
+         }
+
+nav ul li {
+    display: inline-block;
+    text-align:center;
+    list-style-type:none;
+    width:80px;
+    height:25px;
+    background-color:ghostwhite;
+    margin-bottom:10px;
+    padding:10px;
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+         .home {
+    background-color: transparent;
+    width: auto;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0;
+} 
+.home a img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+}
+.home a:hover img {
+    background-color: transparent;
+    transform: scale(1.1);
+    content: url('../Imagenes/Iconos/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(43).png')
+
+}
+
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>FORMATOS DE TEXTO</h1>
+    </header>
+    <nav>
+        <!--Esta es la sección de navegación donde se creará el menú para ir de una página a otra dentro del sitio web-->
+         <ul>
+                <li class="home"><a href="../html/index.html"> <img src="../Imagenes/Iconos/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(42).png" alt="home"></a></li>
+                <li><a href="../html/MiPrimeraPagina.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/Tablas.html">Tablas</a></li>
+                <li><a href="../html/Imagen.html">Imagenes</a></li>
+                <li><a href="../html/Audio.html">Audio</a></li>
+                <li><a href="../html/Video.html">Video</a></li>
+                <li><a href="../html/Formularios.html">Formularios</a></li>
+            </ul>
+    </nav>
+    <main>
+        <!--Esta es la sección de contenido-->
+        <section>
+            <h1>Encabezado 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, dolor non scelerisque vulputate, nisi mi vulputate lacus, quis faucibus justo magna id ex. Suspendisse vulputate sed nisi sit amet laoreet. Praesent ultrices iaculis sollicitudin. Phasellus laoreet enim libero, ut pharetra lorem commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mi a dui efficitur dignissim. Aliquam in nisi nibh. Curabitur gravida auctor justo, vel congue ligula maximus a. Ut vitae.</b>Praesent a orci quis justo dignissim gravida. Nam malesuada, neque ac luctus fermentum, tellus turpis ullamcorper purus, at faucibus lectus dolor suscipit augue. Fusce nunc augue, gravida ac est id, dapibus elementum tortor. Nulla at maximus ante.</p>
+             </section>
+             <section>
+            <h2>Encabezado 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, dolor non scelerisque vulputate, nisi mi vulputate lacus, quis faucibus justo magna id ex. Suspendisse vulputate sed nisi sit amet laoreet. Praesent ultrices iaculis sollicitudin. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mi a dui efficitur dignissim. Aliquam in nisi nibh. Curabitur gravida auctor justo, vel congue ligula maximus a. Ut vitae.</i>Phasellus laoreet enim libero, ut pharetra lorem commodo at. <b><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mi a dui efficitur dignissim. Aliquam in nisi nibh. Curabitur gravida auctor justo, vel congue ligula maximus a. Ut vitae.</i></b>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                <p>Praesent a orci quis justo dignissim gravida. Nam malesuada, neque ac luctus fermentum, tellus turpis ullamcorper purus, at faucibus lectus dolor suscipit augue. Fusce nunc augue, gravida ac est id, dapibus elementum tortor. Nulla at maximus ante.</p>
+                  </section>
+             <section>
+             <h3>Encabezado 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis odio nisi, vitae sodales ligula condimentum vel. Aliquam blandit, augue ut sagittis commodo, mi leo porttitor neque, ut scelerisque dui dolor a nisi. Nunc quis massa cursus, pulvinar diam luctus, faucibus mi. Donec vitae porta enim. Vivamus mattis arcu non massa suscipit dapibus nec eget quam. Nunc a diam nibh. Aliquam erat volutpat. Sed interdum finibus enim, ultricies vehicula felis iaculis interdum. Vivamus nec ante ornare, auctor velit nec, tempus massa. Aenean convallis feugiat rhoncus. <del>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mi a dui efficitur dignissim. Aliquam in nisi nibh. Curabitur gravida auctor justo, vel congue ligula maximus a. Ut vitae.</del></p>
+                 <p>Nunc lacinia, nisl ut sodales elementum, tellus velit eleifend dolor, a ultricies magna leo vel est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <b><del><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mi a dui efficitur dignissim. Aliquam in nisi nibh. Curabitur gravida auctor justo, vel congue ligula maximus a. Ut vitae.</i></del></b> Nulla enim enim, pretium quis nisl nec, dignissim fermentum lectus.</p>
+                  </section>
+             <section>
+            <h4>Encabezado 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, dolor non scelerisque vulputate, nisi mi vulputate lacus, quis faucibus justo magna id ex. Suspendisse vulputate sed nisi sit amet laoreet. Praesent ultrices iaculis sollicitudin. <mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a elit a turpis vestibulum sollicitudin. In non dignissim massa, sed dictum tellus. Suspendisse et urna massa. Fusce pulvinar sodales orci et consectetur. Morbi at luctus eros. Integer aliquam nibh et sem scelerisque, sit amet consequat nisi tincidunt. Orci varius natoque.</mark>Phasellus laoreet enim libero, ut pharetra lorem commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <b><i><mark> 
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a elit a turpis vestibulum sollicitudin. In non dignissim massa, sed dictum tellus. Suspendisse et urna massa. Fusce pulvinar sodales orci et consectetur. Morbi at luctus eros. Integer aliquam nibh et sem scelerisque, sit amet consequat nisi tincidunt. Orci varius natoque.</mark></i></b>Praesent a orci quis justo dignissim gravida. Nam malesuada, neque ac luctus fermentum, tellus turpis ullamcorper purus, at faucibus lectus dolor suscipit augue. Fusce nunc augue, gravida ac est id, dapibus elementum tortor. Nulla at maximus ante.</p>
+                  </section>
+             <section>
+              <h5>Encabezado 5</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, dolor non scelerisque vulputate, nisi mi vulputate lacus, quis faucibus justo magna id ex. Suspendisse vulputate sed nisi sit amet laoreet. Praesent ultrices iaculis sollicitudin. <b>La formula química del agua es <mark>H<sub>2</sub>O</mark></b>. Mientras que <b>la formula química del <i>Dioxido de carbono</i> es <mark>CO<sub>2</sub>.</mark></b>  </p>
+                <p>Phasellus laoreet enim libero, ut pharetra lorem commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent a orci quis justo dignissim gravida. Nam malesuada, neque ac luctus fermentum, tellus turpis ullamcorper purus, at faucibus lectus dolor suscipit augue. Fusce nunc augue, gravida ac est id, dapibus elementum tortor. Nulla at maximus ante.</p>
+                  </section>
+                  <section>
+            <h6>Encabezado 6</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et fringilla dolor, laoreet gravida lorem. Nam aliquet gravida risus et rhoncus. Suspendisse pretium mauris justo, nec vehicula lacus sollicitudin non. Nulla eu tincidunt felis. Aliquam vulputate eu urna non fringilla. <b>El teorema de pitagoras dice que la hipotenusa de un triangulo es igual a la suma de los cuadrados de los catetos por lo que su formula matemática es <mark>h<sup>2</sup>=c<sup>2</sup>+c<sup>2</sup></mark></b>.
+                <p>La famosa ecuación <mark><b><i>E=mc<sup>2</sup></i></b></mark> de Einstein establece que la energía <b><i>(E)</i></b> es igual a la masa <b><i>(m)</i></b> multiplicada por la velocidad de la luz <b><i>(c)</i></b> elevada al cuadrado, mostrando la equivalencia entre masa y energía.</p>
+                <p>Morbi at mauris sit amet nisi porttitor cursus sed at dolor. Suspendisse vitae purus erat. Nunc in pharetra eros, vel hendrerit neque. In malesuada augue turpis, et porttitor tellus venenatis a. Donec et diam aliquam mauris tincidunt viverra nec id felis. Nullam sed dolor et dolor pretium ornare in id libero. Mauris eu eros est.
+            Mauris et massa vulputate, convallis erat id, tristique quam. Etiam sed suscipit magna. Donec sed consequat dui. Vestibulum ac turpis et augue consectetur fermentum ut a ligula. Donec quis fringilla turpis. Sed iaculis purus non lectus suscipit, quis luctus odio aliquet. Nam vitae mattis magna. </p>
+        </section>
+        </main>
+        <footer>
+       <a href="https://www.instagram.com/arantxacontx.png/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/ig.png"></a>
+           <a href="https://mx.pinterest.com/arantxaacontx/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/pin.png"></a>
+           <a href="https://www.tiktok.com/@arantxaacontx?_t=ZM-8ue1k8CD0SN&_r=1" target="_blank"><img class="iconos" src="../Imagenes/Iconos/tiktk.png"></a>
+           <br><br>
+            <h6>Elaborado por Arantxa Herrera</h6>
+        </footer>
+    </body>
+    </html>

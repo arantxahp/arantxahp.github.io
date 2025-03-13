@@ -1,0 +1,235 @@
+<!--
+        Facultad de Arquitectura
+        Colegio de Diseño Gráfico
+        Diseño de Interfaces Gráfico de Usuario
+        Herrera Preza Arantxa
+-->
+<html>
+<head>
+    <title>Listas HTML</title>
+     <style type="text/css">
+            *{
+                padding:0;
+                margin:0;
+            }
+         header{
+             width:1200px;
+             height:50px;
+             background-color: rebeccapurple;
+             color: ghostwhite;
+            padding:30px;
+         }
+         nav{
+             width:1200px;
+             height:50px;
+             background-color: mediumpurple;
+             padding:30px;
+         }
+         main{
+             width:1200px;
+             height:1900px;
+             background-color:#e4c1f9;
+             padding:30px;
+         }
+         footer{
+            width:1200px;
+             height:80px;
+             background-color: rebeccapurple;
+            color: floralwhite;
+            padding:30px
+         }
+         header,nav,main,footer{
+             margin-left:auto;
+             margin-right:auto;
+         }
+         section{
+             width:900px;
+             height:550px;
+             background-color: ghostwhite;
+             margin-top:20px;
+             margin-bottom:20px;
+             margin-left:auto;
+             margin-right:auto;
+             padding:30px;
+         }        
+         header h1,footer h6, nav{
+             text-align:center;
+         }
+         footer h6{
+             color: ghostwhite;
+            font-size:20px;
+         }
+         h2,{
+             margin-bottom:20px;
+             color: purple;
+         }
+         p{
+             color:darkslateblue;
+         }
+         ul{
+             color: gray;
+             
+                 
+         }
+         
+         ol{
+             color: blueviolet
+                 
+         }
+         footer{
+            text-align: center;
+            height: auto;
+            font-size: 18px;
+            }
+        .iconos{
+                width: 50px;
+                height: auto;
+                padding: 5px;
+                margin-top: auto;
+                display: inline-block; 
+            }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+            display: flex;
+        
+         }
+
+nav ul li {
+    display: inline-block;
+    text-align:center;
+    list-style-type:none;
+    width:80px;
+    height:25px;
+    background-color:ghostwhite;
+    margin-bottom:10px;
+    padding:10px;
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+         .home {
+    background-color: transparent;
+    width: auto;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0;
+} 
+.home a img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+}
+.home a:hover img {
+    background-color: transparent;
+    transform: scale(1.1);
+    content: url('../Imagenes/Iconos/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(43).png')
+
+}
+
+
+}
+    </style>
+         </head>
+    <body>
+    <header>
+        <h1>LISTAS EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                 <li class="home"><a href="../html/index.html"> <img src="../Imagenes/Iconos/home.png" alt="home"></a></li>
+                <li><a href="../html/MiPrimeraPagina.html">Formatos</a></li>
+                <li><a href="../html/Listas.html">Listas</a></li>
+                <li><a href="../html/Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/Tablas.html">Tablas</a></li>
+                <li><a href="../html/Imagen.html">Imagenes</a></li>
+                <li><a href="../html/Audio.html">Audio</a></li>
+                <li><a href="../html/Video.html">Video</a></li>
+                <li><a href="../html/Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <h2>Listas Ordenadas</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quam massa, sit amet accumsan ante iaculis non. Sed consequat urna in sem porttitor cursus. Donec nec condimentum mauris. Morbi sed bibendum mauris. Curabitur sit amet eros laoreet, imperdiet odio sit amet, mattis magna. Donec ultrices, urna non vestibulum blandit, ante dolor posuere quam, ut scelerisque est nibh ac est. Nulla euismod risus metus, lacinia lacinia orci sagittis id. Fusce ac nisl vel enim faucibus iaculis. Suspendisse potenti. Aenean fermentum diam id finibus auctor. Curabitur sed condimentum turpis, non semper orci. Suspendisse lectus mi, malesuada vitae ullamcorper ac, egestas nec massa.</p>
+            <ol>
+                <li>España</li>
+                <li>Grecia</li>
+                <li>México</li>
+                <li>Japón</li>
+                <li>Italia</li>
+                <li>Francia</li>
+                <li>Alemania</li>
+                <li>Dinamarca</li>
+                <li>Rusia</li>
+                <li>Albania</li>
+            </ol>
+            </section>
+            <section>
+            <h2>Listas Desordenadas</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quam massa, sit amet accumsan ante iaculis non. Sed consequat urna in sem porttitor cursus. Donec nec condimentum mauris. Morbi sed bibendum mauris. Curabitur sit amet eros laoreet, imperdiet odio sit amet, mattis magna. Donec ultrices, urna non vestibulum blandit, ante dolor posuere quam, ut scelerisque est nibh ac est. Nulla euismod risus metus, lacinia lacinia orci sagittis id. Fusce ac nisl vel enim faucibus iaculis. Suspendisse potenti. Aenean fermentum diam id finibus auctor. Curabitur sed condimentum turpis, non semper orci. Suspendisse lectus mi, malesuada vitae ullamcorper ac, egestas nec massa.</p>
+                <ul>
+                    <li>Veracruz</li>
+                    <li>Oaxaca</li>
+                    <li>Jalisco</li>
+                    <li>Puebla</li>
+                    <li>Tampico</li>
+                    <li>Yucatán</li>
+                    <li>Quintana Roo</li>
+                    <li>San Luis Potosí</li>
+                    <li>Chihuaha</li>
+                    <li>Baja California</li>
+                </ul>
+            </section>
+        <section> 
+            <h2>Listas Mixtas</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quam massa, sit amet accumsan ante iaculis non. Sed consequat urna in sem porttitor cursus. Donec nec condimentum mauris. Morbi sed bibendum mauris. Curabitur sit amet eros laoreet, imperdiet odio sit amet, mattis magna. Donec ultrices, urna non vestibulum blandit, ante dolor posuere quam, ut scelerisque est nibh ac est. Nulla euismod risus metus, lacinia lacinia orci sagittis id. Fusce ac nisl vel enim faucibus iaculis. Suspendisse potenti. Aenean fermentum diam id finibus auctor. Curabitur sed condimentum turpis, non semper orci. Suspendisse lectus mi, malesuada vitae ullamcorper ac, egestas nec massa.</p>
+            <ol>
+                <li>Puebla
+                    <ul>
+                        <li>San Manuel</li>
+                        <li>Amalucan</li>
+                        <li>San Ramón</li>
+                        <li>México 68</li>
+                        <li>El Carmen</li>
+                        <li>La Paz</li>
+                </ul>
+                    </li>
+                <li>Xicotepec</li>
+                <li>Zacatlan</li>
+                <li>Atlixco</li>
+                <li>Cholula
+                    <ul>
+                        <li>San Cristobal Tulcingo</li>
+                        <li>Las Calandrias</li>
+                        <li>Monoxpan</li>
+                        <li>El Pilar</li>
+                        <li>Zerezontla</li>
+                </ul>
+                    </li>
+                <li>Izucar de Matamoros</li>
+                <li>Acajete</li>
+                <li>Amozoc
+                    <ul>
+                        <li>Paso del Arroyo</li>
+                        <li>La Loma</li>
+                        <li>El Pozo</li>
+                </ul>
+                    </li>
+                <li>Tehuacán</li>
+                <li>Tecamachalco</li>
+            </ol>
+            </section>
+        </main>
+        <footer>
+        <a href="https://www.instagram.com/arantxacontx.png/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/ig.png"></a>
+           <a href="https://mx.pinterest.com/arantxaacontx/" target="_blank"><img class="iconos" src="../Imagenes/Iconos/pin.png"></a>
+           <a href="https://www.tiktok.com/@arantxaacontx?_t=ZM-8ue1k8CD0SN&_r=1" target="_blank"><img class="iconos" src="../Imagenes/Iconos/tiktk.png"></a>
+           <br><br>
+            <h6>Elaborado por Arantxa Herrera</h6>
+        </footer>
+    </body>
+</html>
